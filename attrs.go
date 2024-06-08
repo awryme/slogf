@@ -3,7 +3,7 @@ package slogf
 import "log/slog"
 
 // KeyError sets default key for [Error] func
-const KeyError = "error"
+var KeyError = "error"
 
 // Error returns [slog.Attr] with error string as value and [KeyError] as key
 // returns empty attr (which is skipped by slog) on nil error
