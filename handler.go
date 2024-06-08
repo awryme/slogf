@@ -5,6 +5,7 @@ import (
 	"log/slog"
 )
 
+// DefaultHandler returns a [slog.TextHandler] that skips level key
 func DefaultHandler(output io.Writer) slog.Handler {
 	opt := &slog.HandlerOptions{
 		ReplaceAttr: func(groups []string, a slog.Attr) slog.Attr {
