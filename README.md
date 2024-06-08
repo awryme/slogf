@@ -1,5 +1,7 @@
 # slogf
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/awryme/slogf)](https://pkg.go.dev/github.com/awryme/slogf)
+
 ## Key points
 - logger is a simple `func(msg string, attrs ...slog.Attr)`
 - minimalistic set of exports
